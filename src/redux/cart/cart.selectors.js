@@ -1,5 +1,4 @@
 import { createSelector } from 'reselect'
-import { selectCurrentUser } from '../user/user.selectors';
 
 const selectCart = state => state.cart;
 
