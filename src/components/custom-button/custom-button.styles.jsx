@@ -34,7 +34,7 @@ const googleSignInStyles = css`
     }
 `
 const getButtonStyles = props => {
-    return props.isGoogleSingIn ? googleSignInStyles :
+    return props.isGoogleSignIn ? googleSignInStyles :
         props.inverted ? invertedButtonStyles : buttonStyles
 
 }
