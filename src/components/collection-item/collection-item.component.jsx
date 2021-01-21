@@ -12,7 +12,7 @@ const CollectionItem = ({ item, addCartItem }) => {
     const { imageUrl, name, price } = item;
     return (
         <CollectionItemContainer>
-            <BackgroundImage classname="image" imageUrl={imageUrl} />
+            <BackgroundImage className="image" imageUrl={imageUrl} />
             <CollectionFooterContainer>
                 <NameContainer>{name}</NameContainer>
                 <PriceContainer>{price}</PriceContainer>
